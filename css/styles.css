@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat: 400,600");
+
+a {
+    color: #F89B61;
+}
+
+a:hover {
+    color: #FEC1A8;
+}
+
+.aw-bio{
+    padding: 1.7rem 0rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.aw-content {
+    padding: 2.5rem 2.5rem 0em 2.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.aw-content-wrapper {
+    overflow: auto;
+}
+
+.aw-credit{
+    opacity: 0.4;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+}
+
+.aw-image {
+    height: 80vh;
+    background-image: url("../img/STM-NE556.jpg");
+    background-size: cover;
+    background-position: center center;
+    /* transform: rotate(90deg); */
+}
+
+.aw-il-headings{
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0.75rem;
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.05rem;
+    color: #F8D661;
+}
+
+.aw-name{
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    letter-spacing: -0.3rem;
+    color: #FDA68A;
+}
+
+.aw-list{
+    margin-bottom: 1.25rem;
+}
+
+.aw-tagline{
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    letter-spacing: -0.125rem;
+    color: #80FFDB;
+}
+
+body {
+    background-color: #51A194;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color:whitesmoke;
+}
+
+li {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+@media (max-width: 574px) {
+    .aw-bio {
+        font-size: 1.5rem;
+        letter-spacing: -0.2px;
+        padding-top: 3rem;
+    }
+
+    .aw-list{
+        margin-bottom: 2.5rem;
+    }
+
+    .aw-name {
+        margin-top: 1rem;
+        margin-button: 1rem;
+        font-size: 2rem;
+        letter-spacing: -0.4px;
+        font-weight: 500;
+    }
+
+    .aw-tagline {
+        margin-top: 0rem;
+        font-size: 3rem;
+        letter-spacing: -0.4px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 575px) {
+    .aw-bio {
+        font-size: 1.9rem;
+        letter-spacing: -0.2px;
+        padding-top: 5rem;
+    }
+
+    .aw-content{
+        padding: 3.75rem;
+    }
+
+    .aw-list{
+        margin-bottom: 2.5rem;
+    }
+
+    .aw-name {
+        margin-top: 0.5rem;
+        margin-button: 2rem;
+        font-size: 3rem;
+    }
+
+    .aw-tagline{
+        font-size: 3.5rem;
+        line-height: 3.8rem;
+        margin-bottom: 0.5em;
+    }
+}
+
+@media (min-width: 768px) {
+    .aw-content {
+        padding: 3.75rem 6.25rem;
+    }
+
+    .aw-name {
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+}
+@media (min-width: 992px) {
+    .aw-bio {
+        font-size: 1.5rem;
+        letter-spacing: -0.2px;
+    }
+
+    .aw-name {
+        margin-top: 1.8rem;
+        font-size: 2.2rem;
+        letter-spacing: -0.3px;
+    }
+
+    .aw-image{
+        height: 100vh;
+    }
+
+    .aw-content{
+        padding: 3.75rem;
+    }
+
+    .aw-content-wrapper{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .aw-main-wrapper {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .aw-tagline {
+        font-size: 3rem;
+        letter-spacing: 1px;
+        line-height: 2.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .aw-bio {
+        margin-bottom: 1.5rem;
+    }
+
+    .aw-content {
+        max-width: 600px;
+        padding: 3.75rem 2.5rem;
+    }
+
+    .aw-name {
+        font-size: 2.4rem;
+        letter-spacing: -0.3px;
+    }
+
+    .aw-tagline {
+        font-size: 3.2rem;
+        line-height: 4rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .aw-bio {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .aw-content {
+        padding: 3.75rem 0rem;
+    }
+
+    .aw-tagline {
+        font-size: 4rem;
+    }
+}
